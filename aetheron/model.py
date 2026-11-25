@@ -9,7 +9,7 @@ Decoder  : x_f(t+tau) = x_f(t) + tau * psi(xi_f)                                
 Graphs are k-nearest-neighbour graphs with fixed in-degree, so every aggregation is a dense
 (N, K, ...) tensor op -- no scatter kernels needed (runs on CPU / CUDA / Apple MPS).
 
-Deviations from the paper are documented in README_AETHERON.md: low-rank kernel kappa (kernel width kw), a residual
+Deviations from the paper are documented in .github/README.md: low-rank kernel kappa (kernel width kw), a residual
 connection around each processor layer, a short wall-graph processor, and an extra head for the
 spatially-uniform pressure level, which is set by the outlet Windkessel.
 """
