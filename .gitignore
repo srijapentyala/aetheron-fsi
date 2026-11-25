@@ -1,0 +1,12 @@
+# dataset and paper: not redistributed
+/cases/
+/geometry/
+/shared/
+/subset_metadata.json
+/README.md
+*.pdf
+# large / data-derived arrays (regenerate with evaluate.py and forecast.py)
+*.npz
+__pycache__/
+*.pyc
+.DS_Store
